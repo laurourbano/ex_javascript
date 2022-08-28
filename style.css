@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: hsl(0, 0%, 11%);
+  color: rgba(255, 238, 0, 0.897);
+  font-family: 'Kaushan Script', 'cursive';
+  font-weight: 500;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  width: 40vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+#botao1, #botao2 {
+  background-color: rgb(11, 58, 97);
+  padding: 30px;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+h1 {
+  font-size: 60px;
+}
+h2 {
+  margin-top: 100px;
+}
+p, #botao1, #botao2 {
+  font-size: 30px;
+  text-align: center;
+}
+strong {
+  color: red;
+}
+
+#botao1:hover, #botao2:hover {
+  background-color: rgb(0, 48, 87);
+  cursor: pointer;
+  color: rgb(100, 69, 69);
+}
